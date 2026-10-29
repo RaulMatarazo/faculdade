@@ -1,0 +1,50 @@
+/* 
+    TAG ou CLASSE ou ID 
+    seletor: pseudoclasse {
+        propriedade: valor
+    }
+*/
+
+
+#div-principal {
+    background-color: #1fc51f63;
+    border-radius: 10px;
+}
+
+.div-secundaria {
+    background-color: #316631;
+}
+
+.botao-padrao{
+    background-color: #52a752;
+    border: #52a752;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    transition: ease 0.1s;
+}
+
+.botao-padrao:hover{
+   background-color: #316631;
+    border: #316631; 
+    transition: ease 0.1s;
+}
+
+.botao-padrao:active{
+    background-color: #52a752;
+    border: #52a752;
+    transition: ease 0.1s;
+}
+
+li {
+    color: #316631;
+}
+
+li:first-child{
+    color: #1fc51f;
+}
+
+li:nth-child(3){
+   color: #83ac94; 
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;  /* eixo x */
+    align-items: center; /* eixo y */
+    height: 500px;
+    border: 5px solid #ff0000;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff9393;
+    border: 1px solid #000000;
+    flex: 1; /* consumo todo o espaço possivel */
+}

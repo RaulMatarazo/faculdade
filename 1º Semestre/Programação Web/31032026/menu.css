@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: coral;
+    padding: 10px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}

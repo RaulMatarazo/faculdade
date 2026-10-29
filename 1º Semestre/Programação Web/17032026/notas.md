@@ -1,0 +1,3 @@
+- A estilização que o arquivo busca e sempre o que está mais interno, ou seja, INLINE -> INTERNO -> EXTERNO (RECOMENDADO)
+- seletores: TAG, classe e ID
+- margin: distância de um elemento para o próximo

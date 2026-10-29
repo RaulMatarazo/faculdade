@@ -1,0 +1,11 @@
+ORG 0
+NOP
+LDA A
+STA B
+HLT
+
+ORG 128
+
+A: DB 25
+B: DB 0
+

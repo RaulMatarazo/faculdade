@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalhando com formulários</title>
+    <link rel="stylesheet" href="formulario.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <h2>Cadastro completo</h2>
+        <div class="row">
+          <div class="field">
+            <label for="">Primeiro nome</label>
+            <input type="text" />
+          </div>
+
+          <div class="field">
+            <label for="">Sobrenome</label>
+            <input type="text" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="">Nome de usuário</label>
+            <input type="text" placeholder="Barack Obama" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="">Data de nascimento</label>
+            <input type="date" name="" id="" />
+          </div>
+
+          <div class="field">
+            <label for="">Cidade</label>
+            <input type="text" />
+          </div>
+
+          <div class="field">
+            <label for="">Sexo</label>
+            <label for="">
+              <input type="radio" name="sexo" />
+              Masculino
+            </label>
+
+            <label for="">
+              <input type="radio" name="sexo" />
+              Feminino
+            </label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="">E-mail</label>
+            <input type="email" />
+          </div>
+
+          <div class="field">
+            <label for="">Celular</label>
+            <input type="tel" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="">Data de cadastro</label>
+            <input type="date" name="" id="" />
+          </div>
+
+          <div class="field">
+            <label for="">Status</label>
+            <select name="" id="">
+              <option value="">Ativo</option>
+              <option value="">Inativo</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="">Nível</label>
+            <select name="" id="">
+              <option value="">Estagiário</option>
+              <option value="">Júnior</option>
+              <option value="">Pleno</option>
+              <option value="">Senior</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="">Salário</label>
+            <input type="number" name="" id="" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="">Interesses</label>
+          <div class="row">
+            <label for="">
+              <input type="checkbox" name="" id="" />
+              Esporte
+            </label>
+            <label for="">
+              <input type="checkbox" name="" id="" />
+              Leitura
+            </label>
+            <label for="">
+              <input type="checkbox" name="" id="" />
+              Mulher
+            </label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="">Foto de Perfil</label>
+          <input type="file" name="" id="" />
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="">Senha</label>
+            <input type="password" />
+          </div>
+
+          <div class="field">
+            <label for="">Digite sua senha novamente</label>
+            <input type="password" />
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="field">
+                <label for="">Cor de pele</label>
+                <input type="color" name="" id="" />
+            </div>
+        </div>
+        
+
+        <div class="field">
+          <label for="">Nível de felicidade</label>
+          <input type="range" min="0" max="10" id="" />
+        </div>
+
+        <div class="field">
+          <label for="">Biografia</label>
+          <textarea rows="10" maxlength="200"></textarea>
+        </div>
+
+        <div class="actions">
+            <button class="reset" type="reset" value="Limpar">Resetar</button>
+            <button class="submit" type="submit" value="Cadastrar">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+ORG 0
+NOP
+LDA 128
+STA 129
+HLT
+
+ORG 128
+
+25
+0
+

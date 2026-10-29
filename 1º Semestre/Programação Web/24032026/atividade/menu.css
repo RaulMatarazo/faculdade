@@ -1,0 +1,56 @@
+/* FEITO POR RAUL ULRICH MATARAZO - 1º SEMESTRE DE CIÊNCIA DA COMPUTAÇÃO */
+/* 29/03/2026 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* aplicando margem Arial para o documento */
+    margin: 0; /* removendo margem padrão no documento */
+}
+
+/* Menu Principal */
+.menu {
+   list-style: none; /*remover os marcadores da lista*/
+   margin: 0; /*remover a margem externa do elemento ul*/
+   padding: 0; /*remover a margem interna (padding) do elemento ul*/
+   background-color: #333; /* colorindo fundo de cinza */
+}
+
+/*Itens principais*/
+.menu > li {   /*acessar o primeiro nivel de li da ul*/
+   display: inline-block;   /*inline-block alinha horizontalmente*/
+   position: relative; /*posiciona um elemento dentro de outro*/
+}
+
+/*Links*/
+.menu li a{
+    color: white; /*trocar cor do texto*/
+    text-decoration: none; /*remover linha do link*/
+    padding: 15px; /* colocando padding de 15 pixels */
+    display: block; /* exibindo em bloco */
+}   
+
+/*HOVER - passar o mouse sobre o link*/
+.menu li a:hover{
+    background-color: #555; /* colocando cor de fundo cinza */
+}
+
+/*SUBMENU*/
+.submenu {
+    list-style: none; /* retirando estilo da lista */
+    margin: 0; /* tirando margem padrão */
+    padding: 0; /* tirando padding padrão */
+    background-color: #444; /* cor de fundo cinoza */
+    display: none; /* escondido - não mostrar */
+    position: absolute; /*posicionamento livre*/
+    left: 0; /* posição da esquerda 0 */
+    top: 100%; /*apareça completamente abaixo do item*/
+}
+
+/*Itens do submenu*/
+.submenu li {
+    display: block; /* mostrando o submenu como bloco */
+}
+
+/*Mostrar o submenu*/
+.menu li:hover .submenu{
+    display: block; /* quando colocar o mouse por cima mostrar o submenu */
+}

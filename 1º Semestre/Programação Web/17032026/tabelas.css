@@ -1,0 +1,27 @@
+* {
+    font-family: Arial;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 5px;
+}
+
+th {
+    background-color: dodgerblue;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+tr:hover{
+    background-color: rgba(82, 83, 83, 0.068);
+}

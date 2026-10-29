@@ -1,0 +1,109 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu principal */
+.menu{
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+/* Itens do menu */
+.menu > li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: rgb(240, 240, 240);
+    color: green;
+    border-radius: 10px;
+}
+
+.sub-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    padding: 10px;
+    margin-top: 9px;
+}
+
+.sub-menu li {
+    display: block;
+    padding: 7px;
+    
+}
+
+.menu li:hover  .sub-menu{
+    display: block;
+}
+
+main {
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(204, 204, 204);
+    height: 200px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(247, 247, 247);
+}
+
+section img {
+    flex: 1;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgb(223, 226, 228);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex: 1 1;
+}
+
+article div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
